@@ -1,0 +1,7 @@
+name: PersonalPads
+version: 0.1
+author: Locked
+main: org.bonilla.personalpads.PersonalPads
+commands:
+  personalpads:
+    description: Displays all PersonalPads commands

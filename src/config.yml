@@ -1,0 +1,16 @@
+data:
+  use-messages: true
+  # Sound will play when jumping on any personal pad (Min. 0.5) (Max. 3)
+  use-sound: true
+  # SOUND_NAMES can be found at https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  sound: 'ENTITY_ZOMBIE_INFECT'
+  # Fall distance of players for them to take damage (Blocks)
+  fall-distance: 100
+sign-data:
+  # First line indentifier
+  line-1: '[Personal Pads]'
+messages:
+  # Message that displays base command.
+  base-command: '&6[PersonalPads] &cUsage: /personalpads reload'
+  # Message when plugin has been reloaded properly.
+  successful-reload: '&6[PersonalPads] &7Successfully reloaded!'
